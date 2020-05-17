@@ -20,18 +20,46 @@ h1 {
   width: 95%;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
    position: relative;
 }
 
-.sectitle {
+.sectitle1 {
   border: 1px solid black;
-  padding: 10px;
+  padding: 8px;
   background-color: red;
   width: 100px;
-  font-family: Helvetica;
   font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  float: right; 
+  clear: left;
+  
+}
+
+.sectitle2 {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: grey;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  float: right; 
+  clear: left;
+  
+}
+
+.sectitle3 {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: green;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
   color: white;
   text-align: center;
   float: right; 
@@ -40,8 +68,10 @@ h1 {
 }
 p {
   clear: right;
+  margin-left: 20px;
+  margin-top: 50px;
+  text-align: justify;
    width: 90%;
-   text-align: left;
    font-size: 12px;
 }
 
